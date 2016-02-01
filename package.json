@@ -1,5 +1,6 @@
 {
   "name": "ujamcalendar",
+  "description": "Grab the current U-JAM Fitness workshop schedule",
   "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
   "dependencies": {
@@ -13,8 +14,10 @@
   "keywords": [],
   "license": "WTFPL",
   "main": "index.js",
+  "repository": "pdehaan/ujamcalendar",
   "scripts": {
     "start": "node index",
-    "test": "eslint ."
+    "pretest": "eslint .",
+    "test": "node test"
   }
 }
